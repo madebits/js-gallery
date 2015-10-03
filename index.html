@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self'; img-src 'self' data: blob:; script-src 'self';">
+    <meta charset="utf-8">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="ui.css" type="text/css" media="screen">
+    <script src="scripts/aes.js"></script>
+    <script src="scripts/fs.js"></script>
+    <script src="scripts/cjsimg.js"></script>
+    <script src="scripts/ui.js"></script>
+</head>
+<body>
+    <button id="decode">O</button>
+    <div id="content">
+        <div id="preview" tabindex="1"></div>
+        <div id="index" class="cjsenc" data-src="gallery/index.txt">
+        </div>
+    </div>
+    <strong>***</strong>
+</body>
+</html>
